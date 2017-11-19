@@ -1,0 +1,12 @@
+[package]
+name = "dwrange"
+version = "0.1.0"
+authors = ["Philip Craig <philipjcraig@gmail.com>"]
+description = "Display and compare DWARF address ranges"
+repository = "https://github.com/philipc/dwrange"
+license = "Apache-2.0/MIT"
+
+[dependencies]
+gimli = "0.14.0"
+memmap = "0.6.0"
+object = "0.5.0"
